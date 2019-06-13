@@ -5,10 +5,11 @@
         <h3>主线剧情梳理</h3>
         <ul>
           <li v-for="(plot, index) in plots" :key="index">
-            <h4>剧集：{{ plot.episode }}</h4>
-            <p>事件：{{ plot.case }}</p>
+            <h4>事件：{{ plot.case }}</h4>
             <p>剧情：{{ plot.content }}</p>
-            <p>链接（腾讯视频）：<a :href="plot.link" target="_blank" rel="noopener noreferrer">{{ plot.link }}</a></p>
+            <p>日本TV版剧集：{{ plot.japan_episode }}</p>
+            <p>海外版（中国）剧集：{{ plot.oversea_episode }}</p>
+            <p>海外版（中国）剧集链接（腾讯视频）：<a :href="plot.tencent_link" target="_blank" rel="noopener noreferrer">{{ plot.tencent_link }}</a></p>
           </li>
         </ul>
       </el-col>

@@ -1,8 +1,26 @@
 <template>
   <div id="app">
-    <router-view />
+    <Menu/>
+    <transition name="slide">
+      <keep-alive>
+        <router-view />
+      </keep-alive>
+    </transition>
   </div>
 </template>
+
+<script>
+
+import Menu from "@/components/Menu.vue";
+
+export default {
+  components: {
+    Menu
+  }
+}
+</script>
+
+
 <style lang="stylus">
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif

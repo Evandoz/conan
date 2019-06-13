@@ -2,26 +2,20 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.jpg" />
     <Conan/>
-    <Plots/>
-    <Role/>
-    <p>
-      数据来源：<a href="https://tieba.baidu.com/p/4955389401" target="_blank" rel="noopener noreferrer">柯南主线集数整理</a>
-    </p>
+    <DataSource/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Conan from "@/components/Conan.vue";
-import Plots from "@/components/Plots.vue";
-import Role from "@/components/Role.vue";
+import DataSource from "@/components/DataSource.vue";
 
 export default {
   name: "home",
   components: {
     Conan,
-    Plots,
-    Role
+    DataSource
   }
 };
 </script>

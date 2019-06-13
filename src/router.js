@@ -14,6 +14,24 @@ export default new Router({
       component: Home
     },
     {
+      path: "/plot",
+      name: "plot",
+      // route level code-splitting
+      // this generates a separate chunk (plot.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "plot" */ "./views/Plot.vue")
+    },
+    {
+      path: "/role",
+      name: "role",
+      // route level code-splitting
+      // this generates a separate chunk (role.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "role" */ "./views/Role.vue")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
