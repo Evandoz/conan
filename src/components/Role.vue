@@ -7,6 +7,7 @@
           <li v-for="(plot, index) in role" :key="index">
             <h4>人物：{{ plot.name }}</h4>
             <p>身份：{{ plot.role }}</p>
+            <p>描述：{{ plot.desc }}</p>
           </li>
         </ul>
       </el-col>

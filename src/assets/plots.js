@@ -682,6 +682,15 @@ const plots = [
     japan_episode: "937-938",
     oversea_episode: "994-995",
     tencent_link: "https://v.qq.com/x/cover/53q0eh78q97e4d1/w0030g8gd8a.html"
+  },
+  {
+    case: "寻找玛利亚！（后篇）",
+    japanese: "マリアちゃんをさがせ！（後編）",
+    datetime: "2019-06-08",
+    content: "世良真纯提到大哥（也就是赤井秀一）曾经的一位朋友苏格兰教他弹贝斯，让波本回想起了自己日本警察同样潜伏在黑衣组织的苏格兰惨遭赤井秀一杀害的事情",
+    japan_episode: "942",
+    oversea_episode: "999",
+    tencent_link: "https://v.qq.com/x/cover/53q0eh78q97e4d1/w0030g8gd8a.html"
   }
   // {
   //   case: "",
