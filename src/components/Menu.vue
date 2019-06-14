@@ -1,15 +1,16 @@
 <template>
   <div id="menu">
-    <el-link href="">主页</el-link>
+    <router-link to="/">主页</router-link>
     <el-divider direction="vertical"></el-divider>
-    <el-link href="plot">剧集</el-link>
+    <router-link to="/plot">剧集</router-link>
     <el-divider direction="vertical"></el-divider>
-    <el-link href="role">角色</el-link>
+    <router-link to="/role">角色</router-link>
   </div>
 </template>
 
 <style lang="stylus" scoped>
-#menu
-  font-size 20px
+#menu a
+  font-size 18px
+  color #333
+  text-decoration none
 </style>
-
