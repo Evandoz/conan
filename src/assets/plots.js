@@ -687,7 +687,7 @@ const plots = [
     case: "寻找玛利亚！（后篇）",
     japanese: "マリアちゃんをさがせ！（後編）",
     datetime: "2019-06-08",
-    content: "世良真纯提到大哥（也就是赤井秀一）曾经的一位朋友苏格兰教他弹贝斯，让波本回想起了自己日本警察同样潜伏在黑衣组织的苏格兰惨遭赤井秀一杀害的事情",
+    content: "片尾工藤新一和工藤优作在赤井秀一提示下，推理出当年在羽田浩司房间留下的暗号不是指浅香（Asaca,Asaka）和朗姆（Rum）两个词，而是一个词 CARASUMA 乌丸莲耶（死去20年的大富豪，219），BOSS 身份疑似知晓。",
     japan_episode: "942",
     oversea_episode: "999",
     tencent_link: "https://v.qq.com/x/cover/53q0eh78q97e4d1/w0030g8gd8a.html"
