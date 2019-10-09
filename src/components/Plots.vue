@@ -46,7 +46,8 @@ ul
 
 li
   display block
-  margin 0
+  + li
+    margin 30px 0 0 0
 
 p
   text-align left
@@ -54,4 +55,7 @@ p
 a
   color #2c3e50
   text-decoration none
+  &:hover
+    color #42b983
+    text-decoration underline
 </style>

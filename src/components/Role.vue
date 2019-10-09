@@ -44,7 +44,8 @@ ul
 
 li
   display block
-  margin 0
+  + li
+    margin 30px 0 0 0
 
 p
   text-align left
