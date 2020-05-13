@@ -10,6 +10,7 @@
             <p>日本TV版剧集：{{ plot.japan_episode }}</p>
             <p>海外版（中国）剧集：{{ plot.oversea_episode }}</p>
             <p>海外版（中国）剧集链接（腾讯视频）：<a :href="plot.tencent_link" target="_blank" rel="noopener noreferrer">{{ plot.tencent_link }}</a></p>
+            <p>海外版（中国）剧集链接（哔哩哔哩）：<a :href="plot.bilibili_link" target="_blank" rel="noopener noreferrer">{{ plot.bilibili_link }}</a></p>
           </li>
         </ul>
       </el-col>
